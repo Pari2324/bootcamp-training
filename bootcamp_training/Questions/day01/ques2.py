@@ -1,4 +1,11 @@
-#Reverse traverse an array
-arr = [50,40,30,20,10]
-for i in range(len(arr) - 1, -1, -1):
-    print(arr[i], end = " ")
+#implement dictionary in pyhton
+student = {
+    "pari" : '21',
+    "disha" : '17',
+    "kishlay" : '20'
+}
+student["disha"] = '18'
+print(student["disha"])
+
+#time complexity = o(1)
+#space complexity = o(1)
